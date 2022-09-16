@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: #fff8dc;
+}
+header{
+    display: flex;
+    padding: 26px;
+}
+.logo{
+    margin-right: auto;
+}
+.logo-img{
+    width:30px;
+}
+.logo-text{
+    width: 150px;
+    margin-left: 10px;
+}
+.nav-links-container{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links  a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    }
+    .download-btn{
+        padding: 5px 16px;
+        border: 2px solid black;
+        border-radius: 25px;
+    }
+.main-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-center-flex{
+    width: 650px;
+}
+.main-hero img{
+    width: 650px;
+}
+.hero-heading{
+    font-size: 4rem;
+}
+.hero-det{
+    margin: 16px 0;
+    line-height: 2rem;
+    width: 547px;
+}
+.hero-icons{
+    display: flex;
+ 
+   gap: 25px;
+}
+.hero-link-icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+}
+.hero-link-icon span{
+margin-left: 12px;
+}
+.mac:hover{
+    background-color: #ffa595;
+    align-items: center;
+    justify-content: center;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-card{
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.section-card img{
+    width: 400px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.det-head{
+    margin-bottom: 10px;
+}
+.last-sec{
+    width: 500px;
+}
+.download-btn-Mac{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
